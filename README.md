@@ -7,6 +7,7 @@ This is the repository we will be using for the moment
 Everybody should run through the following for some quick 'n dirty git action
 
 1. Clone the repository
+  - `git clone git@github.com:btrebach/Alumni-Office-Application.git`
 2. Create the file FirstnameLastname.txt
 3. `git status` --> should show the file you just created
   - This shows the difference between the Working Directory (your computer) and the Index (staging area)
