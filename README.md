@@ -18,11 +18,13 @@ Everybody should run through the following for some quick 'n dirty git action
 5. Create the file FirstnameLastname.txt
 6. `git status` --> should show the file you just created
   - This shows the difference between the Working Directory (your computer) and the Index (staging area)
-7. `git add FirstnameLastname.txt`
+7. `touch FirstnameLastname.txt`
+  - Creates the file and stores it in folder
+8. `git add FirstnameLastname.txt`
   - add: moves the file to the Index
-8. `git commit -m 'FirstnameLastname initial commit'`
+9. `git commit -m 'FirstnameLastname initial commit'`
   - commit: moves the file the Head
-9. `git push origin master`
+10. `git push origin master`
   - push: moves the file to the actual remote repository (on GitHub)
 
 Boom, there's your basic workflow.
