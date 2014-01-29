@@ -10,22 +10,21 @@ Everybody should run through the following for some quick 'n dirty git action
   - `cd <location>` - go to your own project folder destination on your computer
   - `git init` - this creates the git repository
 2. Create remote "origin" - origin is the name of the remote
-  - `git add remote origin git@github.com:btrebach/Alumni-Office-Application.git`
+  - `git remote add origin git@github.com:btrebach/Alumni-Office-Application.git`
 3. Pull from master branch
   - `git pull origin master`
 4. Clone the repository
   - `git clone git@github.com:btrebach/Alumni-Office-Application.git`
 5. Create the file FirstnameLastname.txt
-6. `git status` --> should show the file you just created
+  - `touch FirstnameLastname.txt`
+6. Add files to index
+  - `git add FirstnameLastname.txt`
+7. Moves the file to the Head
+  - `git commit -m 'FirstnameLastname initial commit'`
+8. `git status` --> should show the file you just created
   - This shows the difference between the Working Directory (your computer) and the Index (staging area)
-7. `touch FirstnameLastname.txt`
-  - Creates the file and stores it in folder
-8. `git add FirstnameLastname.txt`
-  - add: moves the file to the Index
-9. `git commit -m 'FirstnameLastname initial commit'`
-  - commit: moves the file the Head
-10. `git push origin master`
-  - push: moves the file to the actual remote repository (on GitHub)
+9. Push the file to the actual remote repository (on GitHub)
+  - `git push origin master`
 
 Boom, there's your basic workflow.
 
