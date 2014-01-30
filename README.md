@@ -9,12 +9,12 @@ Everybody should run through the following for some quick 'n dirty git action
 1. Create your local git repository
   - `cd <location>` - go to your own project folder destination on your computer
   - `git init` - this creates the git repository
-2. Create remote "origin" - origin is the name of the remote
-  - `git remote add origin git@github.com:btrebach/Alumni-Office-Application.git`
-3. Pull from master branch
-  - `git pull origin master`
-4. Clone the repository
+2. Clone the repository
   - `git clone git@github.com:btrebach/Alumni-Office-Application.git`
+3. Create remote "origin" - origin is the name of the remote
+  - `git remote add origin git@github.com:btrebach/Alumni-Office-Application.git`
+4. Pull from master branch
+  - `git pull origin master`
 5. Create the file FirstnameLastname.txt
   - `touch FirstnameLastname.txt`
 6. Add files to index
