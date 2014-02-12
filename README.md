@@ -1,4 +1,4 @@
-Alumni Office Application
+Team Git Tutorial
 =======
 This is the repository we will be using for the moment
 
