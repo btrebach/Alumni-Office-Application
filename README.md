@@ -10,7 +10,7 @@ Everybody should run through the following for some quick 'n dirty git action
   - `cd <location>` - go to your own project folder destination on your computer
   - `git init` - this creates the git repository
 2. Clone the repository
-  - `git clone git@github.com:btrebach/basic-git-tutorial.git
+  - `git clone git@github.com:btrebach/basic-git-tutorial.git`
   - `touch FirstnameLastname.txt`
 4. Add files to index
   - `git add FirstnameLastname.txt`
